@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+body{
+     font-family: sans-serif;
+     color: white;
+     background-color: black;
+}
+.header{
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+
+}
+.header> .title{
+    margin-bottom: 1rem;
+
+}
+.tribute{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    background-color: rgb(9, 9, 9);
+    color: rgb(255, 255, 255);
+    padding: 0px 0px 0px 10rem;
+   
+}
+.tribute blockquote{
+    justify-content: center;
+    text-align: center;
+    padding-top: 180px;
+    padding-right: 100px;
+    font-size: 2rem;
+}
+.bio{
+    text-align: center;
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+.bio > p{
+    line-height: 1.2;
+
+}
+.bio hr{
+    margin-top: 2rem;
+}
